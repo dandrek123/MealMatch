@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+/* Card styling improvements */
+.meal-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meal-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.22);
+}
+
+/* Improve image appearance */
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Center text inside cards */
+.card-title,
+.card-text {
+    text-align: center;
+}
+nav a:hover {
+    text-decoration: underline;
+}
